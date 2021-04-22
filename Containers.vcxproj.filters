@@ -14,6 +14,11 @@
     <ClInclude Include="Includes\Headers\ConnectionType\Partial\ForwardList" />
     <ClInclude Include="Includes\Headers\ConnectionType\Partial\Queue" />
     <ClInclude Include="Includes\Headers\ConnectionType\Partial\Stack" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\ForwardIterator.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\ForwardIterator.hpp" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Array.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\Array.hpp" />
+    <ClInclude Include="Includes\Headers\ConnectionType\Partial\Array" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Includes\Src\Zyrian\Additional\Containers.cpp" />

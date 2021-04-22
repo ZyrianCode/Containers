@@ -3,3 +3,4 @@
 #include "Includes/Src/Zyrian/CustomContainers/Implementation/ForwardList.hpp"
 #include "Includes/Src/Zyrian/CustomContainers/Implementation/Queue.hpp"
 #include "Includes/Src/Zyrian/CustomContainers/Implementation/Stack.hpp"
+#include "Includes/Src/Zyrian/CustomContainers/Implementation/Array.hpp"

@@ -171,12 +171,17 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Includes\Headers\ConnectionType\Partial\Array" />
     <ClInclude Include="Includes\Headers\ConnectionType\Partial\Stack" />
     <ClInclude Include="Includes\Src\Zyrian\Additional\Core.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Array.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\ForwardIterator.h" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\ForwardList.h" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Queue.h" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\SingleDirectionalNode.h" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Stack.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\Array.hpp" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\ForwardIterator.hpp" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\ForwardList.hpp" />
     <ClInclude Include="Includes\LibInitializer\LibInitializer.h" />
     <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\Queue.hpp" />
