@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Includes\LibInitializer\LibInitializer.h" />
+    <ClInclude Include="Includes\Src\Zyrian\Additional\Core.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\ForwardList.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Queue.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\SingleDirectionalNode.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Definition\Stack.h" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\ForwardList.hpp" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\Queue.hpp" />
+    <ClInclude Include="Includes\Src\Zyrian\CustomContainers\Implementation\Stack.hpp" />
+    <ClInclude Include="Includes\Headers\ConnectionType\Multiply\Containers" />
+    <ClInclude Include="Includes\Headers\ConnectionType\Partial\ForwardList" />
+    <ClInclude Include="Includes\Headers\ConnectionType\Partial\Queue" />
+    <ClInclude Include="Includes\Headers\ConnectionType\Partial\Stack" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\Src\Zyrian\Additional\Containers.cpp" />
+    <ClCompile Include="Includes\Src\Zyrian\CustomContainers\Implementation\SingleDirectionalNode.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+</Project>
